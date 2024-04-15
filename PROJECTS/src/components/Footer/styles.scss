@@ -1,0 +1,16 @@
+.footer {
+  text-align: center;
+
+  padding: 200px;
+  .location {
+    font-size: 16vw;
+    text-transform: uppercase;
+    font-family: serif;
+    font-weight: 600;
+    opacity: 0;
+
+    &.is-reveal {
+      opacity: 1;
+    }
+  }
+}
